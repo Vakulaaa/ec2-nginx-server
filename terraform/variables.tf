@@ -14,7 +14,7 @@ variable "my_ip" {
 }
 
 variable "public_key" {
-  type = string
+  type        = string
   description = "SSH public key for EC2"
-  default = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDummyKeyForCI"
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDummyKeyForCI"
 }
