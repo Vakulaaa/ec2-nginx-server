@@ -1,14 +1,14 @@
 variable "aws_region" {
-  type = string
+  type    = string
   default = "us-east-1"
 }
 
 variable "instance_type" {
-  type = string
+  type    = string
   default = "t3.micro"
 }
 
 variable "my_ip" {
-  type = string
+  type        = string
   description = "Your public IP used for SSH ingress"
 }
