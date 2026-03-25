@@ -1,3 +1,5 @@
+![CI](https://github.com/Vakulaaa/ec2-nginx-server/actions/workflows/ci.yml/badge.svg)
+
 # ec2-nginx-iac
 
 Infrastructure as Code demo: Terraform provisions AWS infrastructure, Ansible installs and configures Nginx on EC2.
