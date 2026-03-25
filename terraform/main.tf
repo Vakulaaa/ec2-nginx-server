@@ -16,7 +16,7 @@ data "aws_ami" "amazon_linux_2023" {
 
 resource "aws_key_pair" "user_key" {
   key_name   = "terraform-user-key"
-  public_key = file("~/.ssh/id_ed25519.pub")
+  public_key = var.public_key
 }
 
 

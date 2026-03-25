@@ -2,12 +2,11 @@
   hosts: web
   become: true
 
-  roles: 
+  roles:
     - nginx
-    
 
   handlers:
     - name: Restart nginx
-      service:
+      ansible.builtin.service:
         name: nginx
         state: restarted
